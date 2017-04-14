@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+		<title>Sun Family Tree Renderer - Open Source</title>
+		<link rel="stylesheet" type="text/css" href="./css/behavior.css">
+		<link rel="stylesheet" type="text/css" href="./css/elements.css">
+		<link rel="stylesheet" type="text/css" href="./css/fonts.css">
+		<link rel="stylesheet" type="text/css" href="./css/grid.css">
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
+		<link rel="stylesheet" type="text/css" href="./css/unique.css">
+		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0;">
+		
+		<!-- Add fancyBox -->
+		<link rel="stylesheet" href="/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+		<script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+		
+    </head>
+    <body>
+		<header>
+			<div id="Paralax"></div>
+			<div class="container">
+				<div class="justify">
+					<div class="toLeft">
+						<span id="RocketLogo">Sun Family Tree</span>
+					</div>
+				</div>
+				<h1>Custom designed Family Tree in the shape of the Sun</h1>
+				<p class="Hello">
+					Open source renderer which produces web-based SVG version <br>and
+					print version for up to A0 size.
+				</p>
+				<a class="button" href="//family.kalashyan.com">See example</a>
+			</div>
+		</header>
+		<section class="white separate">
+			<div class="container">
+				<h2>Create your own tree in 3 steps</h2>
+				<div class="g1of3">
+					<img src="./images/icon1.svg" />
+					<h3>Fill in data</h3>
+					<p>
+						text
+					</p>
+				</div><div class="g1of3">
+					<img src="./images/icon3.svg" />
+					<h3>Fork the source code</h3>
+					<p>
+						text
+					</p>
+				</div><div class="g1of3">
+					<img src="./images/icon2.svg" />
+					<h3>Explore capabilities</h3>
+					<p>
+						text
+					</p>
+				</div>
+			</div>
+		</section>
+		<!--
+		<section class="gray separate">
+			<div class="container">
+				<h2>Save your time</h2>
+				
+				
+				<div class="g1of3">
+					<p>Number of devs:</p>
+					<div class="number">
+						<input type='text' value="1" name="numberOfDevs" pattern="\-?\d+" />
+						<span class="top"></span>
+						<span class="bottom"></span>
+					</div>
+					<p>Redeploys per hour:</p>
+					<div class="number">
+						<input type='text' value="5" name="redeploysPerHour" pattern="\-?\d+" />
+						<span class="top"></span>
+						<span class="bottom"></span>
+					</div>
+					<p>Avg. dev annual salary:</p>
+					<div class="number">
+						<input type='text' value="70000" step="1000" name="avgDevAnnualSalary" pattern="\-?\d+" />
+						<span class="top"></span>
+						<span class="bottom"></span>
+					</div>
+				</div>
+				
+				<div class="g2of3">
+					<h4>RocketDroid will save you <span class="accentuation">$<span id="q1">16,678</span> / year</span></h4>
+					<p>Rebel improves developer efficiency <span class="accentuation">by <span id="q2">45%</span>.</p>
+					<p>This allowing you team to complete the work of <span class="accentuation"><span id="q3">2.9</span> developers.</span></p>
+					<p>Doing this without JRebel would require <span class="accentuation"><span id="q4">0.9</span> extra</span> developers.</p>
+					<p>This would cost you <span class="accentuation">$<span id="q5">42,636</span> / year.</span></p>
+					<p>JRebel licenses for your whole team would cost <span class="accentuation">$<span id="q6">730</span> / year.</span></p>
+					<p>Your investment will pay off in <span class="accentuation"><span id="q7">6</span> days.</span></p>
+				</div>
+				
+			</div>
+		</section>
+		<section class="white separate" id="beFirst">
+			<div class="container">
+				<h2>Be first to try RocketDroid</h2>
+				<p class="Hello innerCentered">To use RocketDroid on your device just add this code to your project's gradle file.</p>
+				<form class="innerCentered" action="#">
+					<input name="email" type="email" placeholder="E-mail" />
+					<button class="button">Subscribe for updates</button>
+					<!-- <a rel="group" href="#test" class="fancybox button">Subscribe for updates</a> -->
+				</form>
+				<div id="test" style="display:none;width:300px;">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit, mi sed sollicitudin hendrerit, elit elit tristique velit, ut sagittis urna dolor non metus. Fusce viverra lacus sit amet urna porttitor eu mollis massa hendrerit.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="container justify">
+				<span id="Copyright" class="toLeft">&copy; Copyright 2014-2015</span>
+				<a class="toRight" href="mailto:sedrak@kalashyan.com">sedrak@kalashyan.com</a>
+			</div>
+		</footer>
+		
+		<script src="./js/common.js" type="text/javascript"></script>
+		    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-24607980-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <!-- Google Analytics -->
+	</body>
+</html>
