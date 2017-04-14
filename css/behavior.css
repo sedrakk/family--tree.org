@@ -275,3 +275,44 @@ body > header {
 	margin: 0 auto;
 	display: inline-block;
 }
+
+#Paralax {
+	position: absolute;
+	top: -5%;
+	left: -5%;
+	width: 110%;
+	height: 110%;
+	z-index: -1;
+	background-image: url('../images/familytreesite.png');
+	background-size: 100% 100%;
+	background-position: 50% 50%;
+}
+@media all and (max-width: 740px) {
+	#Paralax {
+		background-size: 200% 100%;
+	}
+}
+#Copyright {
+	color: white;
+}
+#SunLogo {
+	font-size: 2.25em;
+	font-weight: 700;
+	color: black;
+}
+#DroidLogo {
+	font-size: 2.25em;
+	font-weight: 300;
+	color: black;
+}
+#Rocket {
+	position: absolute;
+	bottom: -250px;
+	right: 20px;
+	width: 40%;
+}
+@media all and (max-width: 900px) {
+	#Rocket {
+		bottom: -150px;
+	}
+}
