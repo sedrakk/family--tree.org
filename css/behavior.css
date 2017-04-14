@@ -44,6 +44,13 @@ h1 {
 	padding: 1em 0;
 	text-align: left;
 	color: black;
+	background: rgba(253, 249, 240, 0.8);
+    -webkit-box-shadow: 0 0px 100px 71px rgba(253, 249, 240, 0.25);
+    -moz-box-shadow: 0 0px 100px 71px rgba(0, 0, 0, 0.25);
+    -ms-box-shadow: 0 0px 100px 71px rgba(0, 0, 0, 0.25);
+    -o-box-shadow: 0 0px 100px 71px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0px 100px 71px rgba(253, 249, 240, 0.8);
+    max-width: 670PX;
 }
 h2 {
 	padding: 0 0 1em;
@@ -243,6 +250,13 @@ body > header {
 	font-size: 1.125em;
 	margin-bottom: 4em;
 	color: black;
+	background: rgba(253, 249, 240, 0.8);
+    -webkit-box-shadow: 0 0px 100px 71px rgba(253, 249, 240, 0.25);
+    -moz-box-shadow: 0 0px 100px 71px rgba(0, 0, 0, 0.25);
+    -ms-box-shadow: 0 0px 100px 71px rgba(0, 0, 0, 0.25);
+    -o-box-shadow: 0 0px 100px 71px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0px 100px 71px rgba(253, 249, 240, 0.8);
+    max-width: 490px;
 }
 
 /* Justify blocks */
