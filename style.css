@@ -282,18 +282,6 @@ body > header {
 #Paralax {
 	position: absolute;
 	top: -5%;
-	left: -5%;
-	width: 110%;
-	height: 110%;
-	z-index: -1;
-	background-image: url('../images/familytreesite.png');
-	background-size: 100% 100%;
-	background-position: 50% 50%;
-}
-@media all and (max-width: 740px) {
-	#Paralax {
-		background-size: 200% 100%;
-	}
 }
 #Copyright {
 	color: white;
@@ -324,11 +312,6 @@ body > header {
 	width: 30px;
 	vertical-align: middle;
 	margin-right: 15px;
-}
-@media all and (max-width: 900px) {
-	#Rocket {
-		bottom: -150px;
-	}
 }
 	/* Items */
 .container {
